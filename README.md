@@ -3,7 +3,6 @@
 **ESP32 Real-Time Temperature and Distance Monitoring** is a microcontroller-based application that uses an **ESP32** to monitor and display real-time **temperature**, **humidity**, and **distance** data. The app uses a **DHT22** sensor to measure temperature and humidity, and an **Ultrasonic sensor** (HC-SR04) to measure the distance to nearby objects. A **servo motor** is used to indicate proximity, and a **buzzer** activates for alerts when objects are too close.
 
 ---
-<br>
 
 ## ✨ Key Features 
 **🌡️ Real-Time Temperature and Humidity Monitoring**  
@@ -22,7 +21,6 @@
   The data is continuously printed in the **Serial Monitor** for real-time monitoring.
 
 ---
-<br>
 
 ## 🛠️ Technologies Used
 
@@ -35,7 +33,7 @@
 - **Arduino Serial Monitor**: To display the real-time data.
 
 ---
-<br>
+
 
 ## 🚀 How to Use
 
@@ -79,7 +77,6 @@ Ensure that the following components are connected to your ESP32:
 Once the upload is complete, open the **Serial Monitor** in Arduino IDE to view real-time data.
 
 ---
-<br>
 
 ## 📊 Interface Overview
 
@@ -88,14 +85,13 @@ Once the upload is complete, open the **Serial Monitor** in Arduino IDE to view 
 - **Servo Motor**: The servo rotates based on the distance measurement. If the distance is below a threshold (e.g., 20 cm), the servo moves to 90° and the buzzer activates.
 
 ---
-<br>
+
 
 ## 📝 Conclusion
 
 **ESP32 Real-Time Temperature and Distance Monitoring** is a simple yet effective project that demonstrates the integration of sensors and actuators with the ESP32. This project allows users to monitor and interact with environmental data in real-time, making it a great starting point for IoT and sensor-based applications.
 
 ---
-<br>
 
 ## Acknowledgments
 
